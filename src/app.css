@@ -1,0 +1,72 @@
+
+:root {
+  --color-1: rgb(174,140,103);
+  --color-1-t: rgba(174,140,103,0.6);
+  --color-2: rgb(141,113,82);
+  --color-2-t: rgba(141,113,82,0.7);
+  --color-3: rgb(93,21,32);
+  --color-3-t: rgb(93,21,32,0.6);
+
+  --color-white: rgb(255,255,255);
+  --color-white-t: rgba(255,255,255,0.8);
+  --color-black: rgb(0,0,0);
+  --color-black-t: rgba(0,0,0,0.8);
+
+  --color-fondo-home: var(--color-2-t);
+  --color-texto-info: var(--color-black-t);
+  --color-texto-info-hover: var(--color-white-t);
+
+  --color-texto-nav: var(--color-black-t);
+  --color-texto-nav-hover: var(--color-white-t);
+  --color-borde-nav: var(--color-black-t);
+  --color-fondo-nav: var(--color-2-t);
+  --color-fondo-nav-hover: var(--color-black-t);
+  --color-fondo-nav-cont: var(--color-2-t);
+  
+  --color-texto1: rgb(0, 0, 0);
+  --color-texto1t: rgba(0, 0, 0,0.5);
+  --color-texto2: rgb(93,21,32);
+  --color-texto2t: rgba(93,21,32,0.5);
+
+  --color-boton: hwb(0 0% 100%);
+  --color-boton-texto:  rgb(255,255,255);
+
+  --color-hover: rgb(211, 191, 191);
+  --color-hover-texto: rgb(0,0,0);
+
+  --color-linea: rgb(182, 182, 182);
+
+  --color-switch-base: rgb(201,202,206);
+  --color-switch-circulo: rgb(134,136,144);
+
+  --color-scroll: rgb(192,192,192);
+  --color-scroll-hover: rgb(134,134,134);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+#root {
+  min-width: 1200px;
+  background-color: var(--color-fondo);
+
+  height: 100vh;
+  background-image: url('./assets/orion_foto1.webp');
+  background-size: cover;
+  background-position: center -705px;
+  background-repeat: no-repeat;
+}
+
+body {
+  color: var(--color-texto);
+  background-color: black;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}

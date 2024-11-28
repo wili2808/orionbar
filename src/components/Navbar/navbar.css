@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1');
+
+
+/*//////////////////////////////////// Navbar Container  ///////*/
+.nav-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar{
+    background-color: var(--color-fondo-nav-cont);
+    border-bottom: 3px solid var(--color-black-t);
+    
+    height: 26px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    
+    height: 100%;
+    list-style-type: none;
+    
+    display: flex;
+    flex-direction: row;
+    
+    cursor: pointer;
+    
+    transition: border 0.1s ease;
+}
+
+.navbar li {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0 15px 0 15px;
+    
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+.navbar li:hover {
+    font-size: 17px;
+    color: var(--color-texto-nav-hover);
+    border-top: 2px solid var(--color-black-t);
+}
