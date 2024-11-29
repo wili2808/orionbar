@@ -1,4 +1,4 @@
-import "./navbar.css";
+import './navbar.css'
 export function Navbar() {
   return (
     <div className="nav-container">
@@ -13,5 +13,5 @@ export function Navbar() {
         </ul>
       </nav>
     </div>
-  );
+  )
 }

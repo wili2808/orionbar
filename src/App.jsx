@@ -1,16 +1,16 @@
-import "./app.css";
-import { Home } from "./components/Home/Home.jsx";
-import { Navbar } from "./components/Navbar/Navbar.jsx";
-import { Banner } from "./components/Banner/Banner.jsx";
+import './app.css'
+import { Header } from './components/Header/Header.jsx'
+import { Navbar } from './components/Navbar/Navbar.jsx'
+import { Banner } from './components/Banner/Banner.jsx'
 
 function App() {
   return (
     <>
-      <Home></Home>
+      <Header></Header>
       <Navbar></Navbar>
       <Banner></Banner>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
