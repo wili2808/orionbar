@@ -43,3 +43,23 @@
     align-items: center;
     gap: 5px;
 }
+
+@media (max-width: 800px){
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-container .logo{
+        border: 2px red solid;
+        position: relative;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .header-container .logo img {
+        width: 200px;
+    }
+    .header-container .info {
+        flex-direction: row;
+        padding: 0;
+    }
+}
