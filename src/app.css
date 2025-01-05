@@ -30,13 +30,13 @@
   font-family: "Outfit", sans-serif;
 }
 #root {
+  background-color: var(--color-black-t);
   width: 80%;
   height: 100vh;
-  background-color: var(--color-black-t);
   background-image: url('./assets/orion_foto1.webp');
-  background-size: cover;
-  background-position: center -705px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -450px;
 }
 body {
   color: var(--color-texto);
