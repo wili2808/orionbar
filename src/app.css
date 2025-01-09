@@ -1,15 +1,15 @@
 :root {
-  --color-1: rgb(174,140,103);
-  --color-1-t: rgba(174,140,103,0.6);
-  --color-2: rgb(141,113,82);
-  --color-2-t: rgba(141,113,82,0.7);
-  --color-3: rgb(93,21,32);
-  --color-3-t: rgb(93,21,32,0.6);
+  --color-1: #ae8c67;
+  --color-1-t: rgba(174, 140, 103, 0.6);
+  --color-2: #8d7152;
+  --color-2-t: rgba(141, 113, 82, 0.7);
+  --color-3: #5d1520;
+  --color-3-t: rgb(93, 21, 32, 0.6);
 
-  --color-white: rgb(255,255,255);
-  --color-white-t: rgba(255,255,255,0.8);
-  --color-black: rgb(0,0,0);
-  --color-black-t: rgba(0,0,0,0.8);
+  --color-white: rgb(255, 255, 255);
+  --color-white-t: rgba(255, 255, 255, 0.8);
+  --color-black: rgb(0, 0, 0);
+  --color-black-t: rgba(0, 0, 0, 0.8);
 
   /* Header */
   --color-fondo-header: var(--color-2-t);
@@ -27,21 +27,28 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 #root {
-  background-color: var(--color-black-t);
-  width: 80%;
+  position: relative;
+  background-color: rgb(26, 26, 26);
   height: 100vh;
-  background-image: url('./assets/orion_foto1.webp');
+  width: 80%;
+  /* background-image: url('./assets/orion_foto1.webp');
+  background-color: rgb(61, 61, 61);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center -450px;
+  background-position: center -450px */;
+}
+@media (max-width: 800px) {
+  #root {
+    background-position: center -100px;
+  }
 }
 body {
-  color: var(--color-texto);
-  background-color: rgb(61, 61, 61);
-  height: 100vh;
   display: flex;
   justify-content: center;
+  color: var(--color-texto);
+  background-color: rgb(61, 61, 61);
 }

@@ -14,7 +14,6 @@ export function Header() {
       </div>
       <div className="info">
         <div className="info-content">
-          {' '}
           <svg
             className="icon"
             xmlns="http://www.w3.org/2000/svg"
