@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './navbar.css'
+import '../styles/navbar.css'
 
 export function Navbar() {
   const [activeMenu, setExpandMenu] = useState(false)

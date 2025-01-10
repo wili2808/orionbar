@@ -1,4 +1,4 @@
-import './banner.css'
+import '../styles/banner.css'
 import img_menVer from '../../assets/menu_vertical_web.webp'
 export function Banner() {
   return (

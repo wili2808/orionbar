@@ -1,6 +1,6 @@
-import './header.css'
-import orion_logo from '../../assets/orion_logo.webp'
-import orion_logo2 from '../../assets/orion_logo2.webp'
+import '../styles/header.css'
+import orion_logo from '../assets/orion_logo.webp'
+import orion_logo2 from '../assets/orion_logo2.webp'
 
 const LINK_INSTA = 'https://www.instagram.com/orion.barber.bar/'
 const ADRESS_BAR =

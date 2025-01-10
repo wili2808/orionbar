@@ -1,0 +1,27 @@
+.footer {
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-size: 12px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: var(--color-2-t);
+    padding: 0 20px;
+}
+@media (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        height: 80px;
+        padding: 10px 0;
+    }
+}
+
+.footer p{
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-size: 13px;
+}
